@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+  body{background-color:#f2dede;;}
+  img{max-width: 100%;}
+
+/* top header start */
+  .container {
+    width: 870px;
+    background: #ffffff;
+    margin: auto;
+    border-radius: 10px;
+  }
+  .main-header {
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  
+  .top-player {
+    padding: 20px 0px;
+    color: rgb(69, 69, 253);
+    margin-left: 30px;
+  }
+
+  .top-player h2{font-weight: 500;}
+  .six-player {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+  }
+  .top-aouthor {
+    display: flex;
+    align-items: center;
+  }
+  .top-aouthor img {
+    width: 56px;
+    height: 56px;
+    margin-right: 12px;
+    margin-left: 30px;
+  }
+  .top-aouthor h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
+  .border {
+    width: 750px;
+    margin: 40px auto;
+    color: snow;
+  }
+/* top header ends */
+
+/* Blog header start */
+.top-blogs{}
+
+.top-blog {
+  margin-bottom: 31px;
+  color: rgb(69, 69, 253);
+  margin-left: 30px;
+}
+
+.four-blog {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 30px;
+  grid-column-gap: 26px;
+}
+.coures {
+  display: flex;
+  margin-bottom: 30px;
+}
+.img-blog img {
+  width: 200px;
+  height: 100px;
+}
+.text-blog {
+  margin-left: 16px;
+}
+.text-blog h2 {
+  font-size: 20px;
+  font-weight: 500;
+  margin-right: 50px;
+}
+.text-blog p a {
+  text-decoration: none;
+  color: #562eff;
+  font-size: 16px;
+}
+.top-blog h2{font-weight: 500;}
+/* Blog header ends */
+
+/* footer section start */
+.letest-fotter-section {
+  margin-top: 35px;
+  margin-left: 30px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+.lstest-header h2 {
+  padding-top: 25px;
+  margin-bottom: 25px;
+  font-weight: 500;
+  color: #562eff;
+}
+.three-course {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.card-section {
+  width: 250px;
+}
+.card-section img{}
+.card-section h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+.card-section p {
+  color: #ED6B4F;
+  margin-bottom: 7px;
+}
+.calar{color: #ffc403;}
+
+.calar-chara{ color: rgb(201, 189, 189);}
+.count {
+  margin: 0px 8px;
+  color: gray;
+}
+.hour {
+  padding: 2px 7px;
+  border-radius: 50px;
+}
+.time {
+  text-decoration: none;
+  color: tomato;
+  padding: 2px;
+  border-radius: 20px;
+}
+.rashed {
+  margin-right: 6px;
+}
+/* footer section end */
